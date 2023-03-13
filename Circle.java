@@ -4,7 +4,7 @@ package goit.module_8;
 public class Circle extends Shape {
     private int radius;
 
-    // конструктор класу
+    // конструктор класу 
     public Circle(String name, int radius) {
         super(name);
         this.radius = radius;
