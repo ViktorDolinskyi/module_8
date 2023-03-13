@@ -11,6 +11,7 @@ public class Circle extends Shape {
     }
 
     // перевизначений метод для виведення інформації про коло
+    @Override
     public void draw() {
         System.out.println("Назва фігури: " + name + ", радіус = " + radius);
     }

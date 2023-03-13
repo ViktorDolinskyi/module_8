@@ -11,6 +11,7 @@ public class Square extends Shape {
     }
 
     // перевизначений метод для виведення інформації про квадрат
+    @Override
     public void draw() {
         System.out.println("Назва фігури: " + name + ", сторона = " + side);
     }

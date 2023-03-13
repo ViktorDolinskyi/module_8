@@ -12,6 +12,7 @@ public class Rectangle extends Shape {
     }
 
     // перевизначений метод для виведення інформації про прямокутник
+    @Override
     public void draw() {
         System.out.println("Назва фігури: " + name + ", ширина = " + width + ", висота = " + height);
     }
